@@ -13,6 +13,7 @@
 		9D295E2725D19DEF00E5AA52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D295E2625D19DEF00E5AA52 /* Preview Assets.xcassets */; };
 		9D295E3225D19DEF00E5AA52 /* CustomTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D295E3125D19DEF00E5AA52 /* CustomTabBarTests.swift */; };
 		9D295E3D25D19DEF00E5AA52 /* CustomTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D295E3C25D19DEF00E5AA52 /* CustomTabBarUITests.swift */; };
+		9D295E4E25D19F4300E5AA52 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D295E4D25D19F4300E5AA52 /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9D295E3825D19DEF00E5AA52 /* CustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D295E3C25D19DEF00E5AA52 /* CustomTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarUITests.swift; sourceTree = "<group>"; };
 		9D295E3E25D19DEF00E5AA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D295E4D25D19F4300E5AA52 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9D295E2325D19DEF00E5AA52 /* Assets.xcassets */,
 				9D295E2825D19DEF00E5AA52 /* Info.plist */,
 				9D295E2525D19DEF00E5AA52 /* Preview Content */,
+				9D295E4D25D19F4300E5AA52 /* ViewRouter.swift */,
 			);
 			path = CustomTabBar;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D295E4E25D19F4300E5AA52 /* ViewRouter.swift in Sources */,
 				9D295E2225D19DEF00E5AA52 /* ContentView.swift in Sources */,
 				9D295E2025D19DEF00E5AA52 /* CustomTabBarApp.swift in Sources */,
 			);
